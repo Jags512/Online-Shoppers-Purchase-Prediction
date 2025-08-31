@@ -1,4 +1,4 @@
-Online Shoppers Purchasing Intention Prediction
+Online Shoppers Purchasing Intention Prediction:
 
 This project aims to predict whether a user will generate Revenue (purchase) on an e-commerce website based on their browsing behavior and session attributes. The dataset used is the Online Shoppers Intention Dataset.
 
@@ -79,26 +79,7 @@ Perform hyperparameter tuning with GridSearchCV
 
 Apply feature engineering for better insights
 
-Deploy model using Flask / FastAPI / Streamlit
-
-✨ Author
-
-👩‍💻 Jagruti Yuvraj Dhangar
-
-Java & Python Developer | ML Enthusiast
-
-🌐 GitHub Profile
-
-Do you want me to also add badges (like accuracy %, Python version, license) to make your README look more professional for GitHub?
-
-You said:
-yes
-ChatGPT said:
-
-Perfect 👍 Adding badges will make your README stand out on GitHub.
-Here’s your final polished README.md with badges:
-
-🛒 Online Shoppers Purchasing Intention Prediction
+Deploy model using Flask / FastAPI / Streamlit.
 
 
 
@@ -107,90 +88,10 @@ Here’s your final polished README.md with badges:
 
 
 
-This project predicts whether an online shopper will make a purchase (Revenue) based on their browsing session behavior using Machine Learning models.
-
-📌 Project Overview
-
-E-commerce websites generate huge session-level data. Predicting customer purchase intention helps:
-
-Optimize marketing strategies
-
-Personalize recommendations
-
-Increase conversion rates
-
-We build a classification model to analyze visitor behavior and predict revenue generation.
-
-📊 Dataset
-
-Name: Online Shoppers Purchasing Intention Dataset
-
-Source: UCI ML Repository
-
-Shape: 12,330 rows × 18 features
-
-Target Variable: Revenue (Binary: 1 = Purchase, 0 = No Purchase)
-
-Key Features:
-
-Administrative, Informational, ProductRelated
-
-BounceRates, ExitRates, PageValues, SpecialDay
-
-Month, OperatingSystems, Region, TrafficType
-
-VisitorType, Weekend
-
-⚙️ Tech Stack
-
-Python 🐍
-
-Pandas, NumPy → Data Cleaning & Processing
-
-Scikit-learn → Model Training & Evaluation
-
-Matplotlib / Seaborn → Visualization
-
-🚀 Workflow
-
-Data preprocessing (missing values, encoding categorical features)
-
-Train-Test Split (stratified for balance)
-
-Feature Scaling with StandardScaler
-
-Train Logistic Regression baseline model
-
-Evaluate performance using:
-
-Accuracy
-
-Confusion Matrix
-
-Classification Report
-
-📈 Results
-
-✅ Achieved ~85% Accuracy using Logistic Regression.
-📌 Further improvements possible with Decision Trees, Random Forest, Gradient Boosting, XGBoost.
-
-📂 Project Structure
-├── online_shoppers_intention.csv   # Dataset
-├── shopper_intention.ipynb         # Jupyter Notebook ( Model)
-├── README.md                       # Project Documentation
-
-🔮 Future Improvements
-
-Hyperparameter tuning with GridSearchCV
-
-Try ensemble models for higher accuracy
-
-Deploy model using Flask / FastAPI / Streamlit
-
-Build a dashboard for real-time predictions
 
 
 
-🌐 GitHub Profile
 
-👉 Do you also want me to create a LICENSE file (MIT) and a requirements.txt so that anyone cloning your repo can run it easily?
+
+
+
